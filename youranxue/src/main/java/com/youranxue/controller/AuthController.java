@@ -42,7 +42,7 @@ public class AuthController {
 		user.setPassword(this.passwordEncoder.encode("admin"));
 		this.userService.save(user);
 	}
-
+//测试
 	@GetMapping("/authenticate")
 	public void authenticate() {
 		// we don't have to do anything here
