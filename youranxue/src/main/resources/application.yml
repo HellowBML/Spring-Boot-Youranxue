@@ -17,7 +17,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/youranxue
     username: postgres
-    password: postgres
+    password: 1111
     driverClassName: org.postgresql.Driver
 
 logging:

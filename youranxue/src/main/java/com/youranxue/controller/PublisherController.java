@@ -22,7 +22,7 @@ public class PublisherController {
 		Publisher publisher = new Publisher();
 		publisher.setPublisher_id("自动布置作业");
 		publisher.setPublisher_name("手动布置作业");
-		publisher.setBook_id("admin.first");
+		publisher.setBook_id("教材版本");
 		return publisher;
 	}
 
