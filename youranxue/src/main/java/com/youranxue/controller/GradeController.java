@@ -32,6 +32,26 @@ public class GradeController {
 
 		return GradeService.searchGradeList(3001);
 
+//		public List<MyGrade> getGradeList() {
+//		MyGrade myGrade1 = new MyGrade();
+//			myGrade1.setGradeId(1001);
+//			myGrade1.setGradeName("一年级");
+//
+//			MyGrade myGrade2 = new MyGrade();
+//			myGrade2.setGradeId(1002);
+//			myGrade2.setGradeName("二年级");
+//
+//			MyGrade myGrade3 = new MyGrade();
+//			myGrade3.setGradeId(1003);
+//			myGrade3.setGradeName("三年级");
+//
+//			List<MyGrade> gradeList = new ArrayList<MyGrade>();
+//			gradeList.add(myGrade1);
+//			gradeList.add(myGrade2);
+//			gradeList.add(myGrade3);
+//
+//			return gradeList;
+
 	}
 
 }
