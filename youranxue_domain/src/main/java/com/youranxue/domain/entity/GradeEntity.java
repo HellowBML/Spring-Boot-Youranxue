@@ -20,7 +20,8 @@ public class GradeEntity extends GradeMst {
 	@Autowired
 	private GradeEntityMapper GradeEntityMapper;
 
-	public List<MyGrade> searchGradeList(int publisherId) {
+	public List<MyGrade> searchGradeList(int publisherId)
+	{
 		return GradeEntityMapper.searchGradeList(publisherId);
 	}
 }

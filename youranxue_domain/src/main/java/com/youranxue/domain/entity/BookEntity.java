@@ -5,10 +5,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import com.youranxue.domain.entity.mapper.BookEntityMapper;
-import com.youranxue.domain.model.BookMst;
 import com.youranxue.domain.stereotype.Entity;
 import com.youranxue.domain.vo.Book;
-
+import com.youranxue.domain.model.BookMst;
 @Entity
 public class BookEntity {
 

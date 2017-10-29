@@ -9,7 +9,6 @@ import org.springframework.stereotype.Service;
 import com.youranxue.domain.entity.BookEntity;
 import com.youranxue.domain.service.BookService;
 import com.youranxue.domain.vo.Book;
-import com.youranxue.domain.vo.Chapter;
 
 @Service
 public class BookServiceImpl implements BookService {
