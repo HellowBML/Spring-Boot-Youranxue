@@ -19,9 +19,9 @@ public class PublisherServiceImpl implements PublisherService {
 	@Autowired
 	private PublisherEntity PublisherEntity;
 
-	public List<MyPublisher> searchPublisherList(int publisherId) {
+	public List<MyPublisher> searchPublisherList(int bookId) {
 
-		List<MyPublisher> PublisherList = PublisherEntity.searchPublisherList(publisherId);
+		List<MyPublisher> PublisherList = PublisherEntity.searchPublisherList(bookId);
 
 		
 		int j = -2;

@@ -8,7 +8,7 @@ import com.youranxue.domain.vo.MyPublisher;
 
 public interface PublisherService {
 
-	List<MyPublisher> searchPublisherList(int publisherId);
+	List<MyPublisher> searchPublisherList(int bookId);
 
 	// List<Publisher> getPublisher(String bookId);
 
